@@ -11,44 +11,15 @@ img:hover {
   transform: scale(2);
 }
 
-span {
-  font-size: 15px;
+.table-responsive {
+  /*height: 500px;
+  overflow: scroll;*/
+  margin-bottom: 150px;
 }
 
-a {
-  text-decoration: none;
-  color: #0062cc;
-  border-bottom: 2px solid #0062cc;
-}
-.box {
-  padding: 60px 0px;
-}
-
-.box-part {
-  background: #2493bf;
-  border-radius: 0;
-  padding: 60px 10px;
-  margin: 30px 0px;
-}
-.text {
-  margin: 20px 0px;
-}
-
-.fa {
-  color: #4183d7;
-}
-.footer {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.derecha {
-  text-align: left;
-}
-
-.justificado {
-  text-align: justify;
-}
-
-.titulo {
-  color: #3c5fa6;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
